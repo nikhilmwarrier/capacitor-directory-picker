@@ -7,7 +7,7 @@ export interface FileInfo {
 }
 
 export interface DirectoryPickerPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
   pickDirectory(): Promise<{ uri: string }>;
   readFilesFromDirectory(options: { uri: string }): Promise<{ files: FileInfo[] }>;
+  copy(options: { from: string; to: string }): Promise<{ uri: string; name: string }>;
 }

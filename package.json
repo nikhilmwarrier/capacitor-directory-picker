@@ -1,6 +1,6 @@
 {
   "name": "@nikhilmwarrier/capacitor-directory-picker",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "Uses SAF to pick a directory, and returns the files inside it.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",

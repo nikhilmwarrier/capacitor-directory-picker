@@ -13,30 +13,15 @@ npx cap sync
 
 <docgen-index>
 
-* [`echo(...)`](#echo)
 * [`pickDirectory()`](#pickdirectory)
 * [`readFilesFromDirectory(...)`](#readfilesfromdirectory)
+* [`copy(...)`](#copy)
 * [Interfaces](#interfaces)
 
 </docgen-index>
 
 <docgen-api>
 <!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
-
-### echo(...)
-
-```typescript
-echo(options: { value: string; }) => any
-```
-
-| Param         | Type                            |
-| ------------- | ------------------------------- |
-| **`options`** | <code>{ value: string; }</code> |
-
-**Returns:** <code>any</code>
-
---------------------
-
 
 ### pickDirectory()
 
@@ -58,6 +43,21 @@ readFilesFromDirectory(options: { uri: string; }) => any
 | Param         | Type                          |
 | ------------- | ----------------------------- |
 | **`options`** | <code>{ uri: string; }</code> |
+
+**Returns:** <code>any</code>
+
+--------------------
+
+
+### copy(...)
+
+```typescript
+copy(options: { from: string; to: string; }) => any
+```
+
+| Param         | Type                                       |
+| ------------- | ------------------------------------------ |
+| **`options`** | <code>{ from: string; to: string; }</code> |
 
 **Returns:** <code>any</code>
 
